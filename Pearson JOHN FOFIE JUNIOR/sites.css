@@ -1,0 +1,288 @@
+*{
+    margin:0px;
+    padding: 0;
+    list-style-type: none;
+    box-sizing: border-box;
+}
+header{
+    justify-content: space-between;
+    display:flex;
+    /* margin-top: 30px; */
+    /* background-color:gold; */
+    flex-direction: column;
+    height: 50px;
+}
+.list{
+    display: flex;
+    justify-content: space-between;
+    /* position: fixed; */
+    background-color:rgb(255, 217, 0);
+    width:100%;
+    padding:20px;
+    height: 80px;
+}
+.logo img{
+   height:50px;
+   position: relative;
+   left: 40px;
+   width: 50px;
+}
+.logo a{
+    text-decoration: none;
+}
+.logo a p{
+text-decoration:none;
+color:black;
+position:relative;
+left:100px;
+bottom:55px;
+text-align:left;
+font-family: arial;
+}
+
+
+nav{
+    display:inline;
+    height:50px;
+    padding-top: 10PX;
+
+   
+  
+}
+nav ul li{
+    position:relative;
+    display:inline;
+    right:60px
+}
+nav ul li a{
+    color:black;
+    font-family: arial;
+    text-decoration: none;
+    padding:30px;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: 20px;
+    
+}
+nav ul li a:hover{
+    color:var(--secondary-color);
+
+}
+
+header img{
+width: 50vw;
+height:50vh;
+border-radius:0px;
+}
+h1{
+    text-align: center;
+    color:chocolate;
+    font-family:arial;
+    margin-top: 50px;
+}
+h2{
+    text-align: center;
+    font-family:arial;
+    color:chocolate;
+    padding-top: 30px;
+    
+}
+.bonwire{
+    display:flex;
+    gap:50px;
+    margin: 30px;
+    
+    height:70vh;
+    background-color: white;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+    width: 96vw;
+    margin-left: 20px;
+    box-shadow: 2px 2px 2px 2px chocolate ;
+    
+}
+.note{
+    color:black;
+    font-family:arial;
+    position: relative;
+    top:10px;
+    line-height: 30px;
+}
+ .bonwire img{
+    height:50vh;
+    position:relative;
+    left:20px;
+    border-radius: 30px;
+    top:20px;
+}
+.wow{
+    /* background:linear-gradient(rgba(255, 255, 255, 0.507),rgba(255, 255, 255, 0.315),rgba(255, 255, 255, 0.075)),url(/pics/wild-deer-nature.jpg); */
+    background-attachment:center;
+    background-position: fixed;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 100vw;
+    height:100vh;
+}
+.lake{
+    display:flex;
+    gap:50px;
+    margin: 30px;
+    
+    height:70vh;
+    background-color: white;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+    width: 96vw;
+    margin-left: 20px;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 255, 0.384)
+    
+    
+}
+.lake p{
+    color:blue;
+    line-height: 20px;
+    padding-left: 30px;
+}
+.lake img{
+    height:50vh;
+    position:relative;
+    margin-right:90px;
+    border-radius: 30px;
+    top:20px;    
+}
+.Manhyia{
+    display:flex;
+    gap:50px;
+    margin: 30px;
+    
+    height:100vh;
+    background-color: white;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+    width: 96vw;
+    margin-left: 20px;
+    box-shadow:2px 2px 2px 2px green;  
+   
+}
+.Manhyia p{
+    color:green;
+    font-size: 15px;
+    line-height: 16px;
+    position:relative;
+    right:30px;
+    
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+    margin-top: 170px;
+    margin-left: 60px;
+}
+.gallery h5{
+    text-align: center;
+    text-decoration: underline;
+    font-size: 30px;
+    top: 150px; 
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color:chocolate;
+    position: relative;
+
+}
+.gallery{
+    
+}
+.sword img{
+    top:40px;
+    margin-right:90px; 
+    width:40vw;  
+    height:60vh;
+    position:relative;
+    margin-right:50px;
+    border-radius: 30px;
+    left: 30px;
+    
+}
+
+
+
+.photos{
+    border: 2px solid gold;
+}
+.photos p{
+    font-family: arial;
+    text-align: center;
+}
+.photos img{
+    height: 40vh;
+    width: 20vw;  
+}
+.photos:hover{
+    transform: scale(1.1);
+    transition-duration: 1s;
+}
+footer{
+    height: 30vh;
+    padding:40px 0;
+    background:black;
+    margin-top: 40px;
+}
+.footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  
+}
+.link2 h4{
+    color: white;
+    font-size: 24px;
+}
+.link2 ul li{
+    margin-bottom: 10px;
+
+}
+.link2 ul li a{
+    color: white;
+    font-weight: 600;
+    position: relative;
+    font-family: arial;
+    text-decoration: none;
+}
+.link2 ul li a::before{
+    content: ' ';
+    position: absolute;
+    height: 2px;
+    width: 60px;
+    background: white;
+    top: 20px;
+    transform-origin: left;
+    transform: scale(0);
+    transition: transform .4s;
+}
+.link2 ul li a:hover::before{
+    transform: scale(1);
+}
+.link3 h4{
+    color: white;
+    font-size: 21px;
+    font-weight: 600;
+}
+.link3 ul li{
+    color:white;
+}
+.link3 ul li img{
+    height:05vh;
+    position: relative;
+    top:10px;
+}
+.copy{
+    color:white;
+    font-family: arial;
+    position: relative;
+    bottom:20px;
+}

@@ -1,0 +1,318 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing:border-box;
+    list-style-type: none;
+}
+header{
+    justify-content: space-between;
+    display:flex;
+    /* margin-top: 30px; */
+    /* background-color:gold; */
+    flex-direction: column;
+    height: 50px;
+}
+.list{
+    display: flex;
+    justify-content: space-between;
+    /* position: fixed; */
+    background-color:rgb(255, 217, 0);
+    width:100%;
+    padding:20px;
+    height: 80px;
+}
+.logo img{
+   height:50px;
+   position: relative;
+   left: 40px;
+   width: 50px;
+}
+.logo a{
+    text-decoration: none;
+}
+.logo a p{
+text-decoration:none;
+color:black;
+position:relative;
+left:100px;
+bottom:55px;
+text-align:left;
+font-family: arial;
+}
+
+
+nav{
+    display:inline;
+    height:50px;
+    padding-top: 10PX;
+
+   
+  
+}
+nav ul li{
+    position:relative;
+    display:inline;
+    right:60px
+}
+nav ul li a{
+    color:black;
+    font-family: arial;
+    text-decoration: none;
+    padding:30px;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: 20px;
+    
+}
+nav ul li a:hover{
+    color:var(--secondary-color);
+
+}
+
+header img{
+width: 50vw;
+height:50vh;
+border-radius:0px;
+}
+
+
+.asante{
+     
+    background-image:linear-gradient(rgba(210, 105, 30, 0.616),rgba(210, 105, 30, 0.479),rgba(210, 105, 30, 0.212)),url(/pics/sikadwa\ Kof.jpg);
+    height:80vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+
+}
+.mee{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    position: relative;
+    top:100px;
+    font-size: 90px;
+    color:white;
+    
+    
+}
+.introduction{
+font-family:arial;
+/* display:flex; */
+box-shadow: 1px 1px 1px 1px green ;
+margin:40px;
+display: flex;
+flex-direction: row;
+gap:30px;
+align-items: center;
+border-radius: 50px;
+background-attachment: fixed;
+background-position: center;  
+background:linear-gradient(rgba(0, 0, 0, 0.904), rgba(0, 0, 0, 0.658), rgba(0, 0, 0, 0.082)),url(/pics/asante\ flag.jpeg);  
+
+
+}
+.introduction p{
+   padding: 50px;
+   background-repeat: no-repeat;
+   color:white;
+  
+}
+.introduction h2{
+    text-align: center;
+    color:gold;
+    background-color: black;
+
+   
+}
+
+span{
+    font-weight:bold;
+}
+.origin{
+    font-family:arial;
+    /* display:flex; */
+    margin:40px;
+    gap:30px;
+    align-items: center;  
+    box-shadow: 1px 1px 1px 1px green ;
+    border-radius: 30px;
+}
+.origin h4{
+    text-align: center;
+    text-decoration: underline;
+    font-size: 20px;
+    padding-top: 30px;
+}
+.origin p{
+    padding-left: 40px;
+    padding-bottom: 10px;
+    padding-top: 20px;
+}  
+.history{
+    font-family:arial;
+    /* display:flex; */
+    box-shadow: 1px 1px 1px 1px green ;
+    margin:40px;
+    gap:30px;
+    align-items: center; 
+    height:80vh;
+    border-radius: 20px;
+
+}
+.history h2{
+    text-align: center;
+    text-decoration: underline;
+    font-size: 20px;
+    padding-top: 30px;  
+}
+.gr h1{
+    color:white;
+    background-color: green;
+    width:fit-content;
+    height:fit-content;
+    text-align: center;
+    margin-left: 500px;
+    border-radius:10px;
+}
+.festival{
+    display:flex;
+    background-position: center;
+    /* background-size: cover; */
+    background-color: white;
+    box-shadow: 1px 1px 1px 1px gray;
+    border-radius: 20px;
+    width:90vw;
+    margin-left: 80px;
+    height:100vh;
+}
+.fest{
+    font-family: arial;
+    color:green;
+    margin-left: 40px;
+    
+}   
+.festival img{
+    height:40vh;
+    width:30vw; 
+    position: relative;
+    top:300px;
+    border-radius: 10px;
+    right:20px;
+}
+.nana{
+    display:flex;
+    gap:20px;  
+    position: relative;
+    bottom:350px; 
+    left:150px;
+}
+.kics img{
+    height:40vh;
+    border-radius: 20px;
+    width:25vw;
+    
+   
+}
+.history p{
+  padding:30px;
+}
+
+.gallery h5{
+    text-align: center;
+    text-decoration: underline;
+    font-size: 30px;
+    padding-top: 30px;   
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+}
+.photos{
+    border: 2px solid gold;
+}
+.photos p{
+    font-family: arial;
+    text-align: center;
+}
+.photos img{
+    height: 40vh;
+    width: 20vw;  
+}
+.photos:hover{
+    transform: scale(1.1);
+    transition-duration: 1s;
+}
+.ind{
+    position: relative;
+    display: flex; 
+  gap: 100px;
+  bottom:20px;
+}
+.tourism{
+    padding-left:50px;
+    padding-bottom: 30px;
+}
+footer{
+    height: 30vh;
+    padding:40px 0;
+    background:black;
+}
+.footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  
+}
+.link2 h4{
+    color: white;
+    font-size: 24px;
+}
+.link2 ul li{
+    margin-bottom: 10px;
+
+}
+.link2 ul li a{
+    color: white;
+    font-weight: 600;
+    position: relative;
+    font-family: arial;
+    text-decoration: none;
+}
+.link2 ul li a::before{
+    content: ' ';
+    position: absolute;
+    height: 2px;
+    width: 60px;
+    background: white;
+    top: 20px;
+    transform-origin: left;
+    transform: scale(0);
+    transition: transform .4s;
+}
+.link2 ul li a:hover::before{
+    transform: scale(1);
+}
+.link3 h4{
+    color: white;
+    font-size: 21px;
+    font-weight: 600;
+}
+.link3 ul li{
+    color:white;
+}
+.link3 ul li img{
+    height:05vh;
+    position: relative;
+    top:10px;
+}
+.copy{
+    color:white;
+    font-family: arial;
+    position: relative;
+    bottom:20px;
+}
+
+

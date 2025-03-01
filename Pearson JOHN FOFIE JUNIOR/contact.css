@@ -1,0 +1,180 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+header{
+    display: flex;
+    height: 80px;
+    justify-content: space-around;
+    align-items: center;
+    background: rgb(255, 217, 3);
+}
+nav ul{
+    display:flex;
+    gap:50px;
+}
+nav ul li a{
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+}
+.contact{
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(rgba(0, 0, 0, 0.767),rgba(0, 0, 0, 0.651),rgba(0, 0, 0, 0.575)), url(david-clode-4lbx1NdUa0s-unsplash.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* gap: 8px; */
+    width: 800px;
+    height: 420px;
+    border: none;
+    background: rgba(0, 0, 0, 0.555);
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.603);
+}
+.text{
+    width: 400px;
+    height: 400px;
+    padding: 50px 50px;
+}
+.text h5{
+    color: white;
+    font-size: 1.8em;
+    font-weight: 700;
+    margin-top: 70px;
+    text-align: left;
+}
+.form1{
+    width: 400px;
+    height: 62vh;
+    background: white;
+    text-align: center;
+}
+.form1 h3{
+    text-align: left;
+    font-size: 23px;
+    margin-left: 40px;
+    margin-top: 10px;
+    font-weight: 600;
+
+}
+.input{
+    height: 60px;
+    border-bottom: 1px solid rgb(122, 122, 122);
+    width: 320px;
+    margin-left: 40px;
+    text-align: left;
+    margin-top: 20px;
+}
+input{
+    border: none;
+    overflow: hidden;
+    outline: hidden;
+    background: transparent;
+    line-height: 90px;
+}
+input:focus{
+    border: none;
+outline: hidden;
+}
+.input1{
+    height: 80px;
+    text-align: left;
+    width: 320px;
+    margin-left: 40px;
+    margin-top: 30px;
+    border-bottom: 1px solid rgb(46, 46, 46);
+}
+textarea{
+    background: transparent;
+    height: 80px;
+    width: 320px;
+    border: none;
+    outline: none;
+    line-height: 40px;
+}
+textarea:focus{
+    border: none;
+    outline: none;
+}
+.btn{
+    height: 45px;
+    width: 160px;
+    border: none;
+    border-radius: 10px;
+    background: rgb(0, 59, 0);
+    color: white;
+    font-weight: 600;
+    margin-top: 18px;
+}
+footer{
+    height: 30vh;
+    padding:40px 0;
+    background:black;
+}
+.footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  
+}
+.link2 h4{
+    color: white;
+    font-size: 24px;
+}
+.link2 ul li{
+    margin-bottom: 10px;
+
+}
+.link2 ul li a{
+    color: white;
+    font-weight: 600;
+    position: relative;
+    font-family: arial;
+    text-decoration: none;
+}
+.link2 ul li a::before{
+    content: ' ';
+    position: absolute;
+    height: 2px;
+    width: 60px;
+    background: white;
+    top: 20px;
+    transform-origin: left;
+    transform: scale(0);
+    transition: transform .4s;
+}
+.link2 ul li a:hover::before{
+    transform: scale(1);
+}
+.link3 h4{
+    color: white;
+    font-size: 21px;
+    font-weight: 600;
+}
+.link3 ul li{
+    color:white;
+}
+.link3 ul li img{
+    height:05vh;
+    position: relative;
+    top:10px;
+}
+.copy{
+    color:white;
+    font-family: arial;
+    position: relative;
+    bottom:20px;
+}

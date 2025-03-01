@@ -1,0 +1,244 @@
+*{
+    list-style-type: none;
+}
+header{
+    justify-content: space-between;
+    display:flex;
+    /* margin-top: 30px; */
+    /* background-color:gold; */
+    flex-direction: column;
+    /* height: 50px; */
+}
+.list{
+    display: flex;
+    justify-content: space-between;
+    /* position: fixed; */
+    background-color:green;
+    /* width:90%; */
+    padding:20px;
+    height: 30px;
+    /* margin-left: 30px; */
+}
+.logo img{
+   height:50px;
+   position: relative;
+   left: 40px;
+   bottom: 5px;
+   
+}
+.logo a{
+    text-decoration: none;
+}
+.logo a p{
+text-decoration:none;
+color:white;
+position:relative;
+left:100px;
+bottom:75px;
+text-align:left;
+font-family: arial;
+}
+
+
+nav{
+    display:inline;
+    height:50px;
+    /* padding-top: 10PX; */
+
+   
+  
+}
+nav ul li{
+    position:relative;
+    display:inline;
+    right:60px
+}
+nav ul li a{
+    color:black;
+    font-family: arial;
+    text-decoration: none;
+    padding:30px;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: 20px;
+    
+}
+nav ul li a::before{
+    content: ' ';
+    position: absolute;
+    height: 2px;
+    width: 60px;
+    background: white;
+    top: 20px;
+    transform-origin: left;
+    transform: scale(0);
+    transition: transform .4s;
+    text-decoration: none;
+
+}
+nav ul li a:hover{
+    color:white;
+    transform: scale(1.1);
+
+}
+.intro{
+    background: linear-gradient(rgba(0, 14, 0, 0.938),rgba(1, 17, 1, 0.459),rgba(255, 255, 255, 0.123)),url(/pics/kente\ background.jpg);
+    height:60vh;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    /* background-position: center; */
+    background-size: cover;
+   
+    position: relative;
+    bottom:60px;
+}
+.box{
+    display:flex;
+    gap: 30px;
+    align-self: center;
+    margin-left: 20px;
+   
+}
+.box img{
+    height:50vh;
+}
+.us{
+    color:white;
+    font-family: arial;
+    background-color: green;
+    width:50vw;
+    padding: 20px;
+    position: relative;
+    bottom: 20px;
+}
+.text{
+    text-align: center;
+    position: relative;
+    top:150px
+}
+.text h1{
+    color:white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 70px;
+
+}
+.container{
+    display: flex;
+    gap: 30px;
+    margin-left: 150px;
+    margin-top: 50px;
+    align-self: center;
+    
+}
+.vision{
+    position:relative;
+    
+    background-color: yellow;
+    border-radius: 20px;
+    align-self: center;
+    height:50vh;
+    text-align: center;
+    font-family: arial;
+}
+.vision:hover{
+    background-color: black;
+    transform: scale(1.1);
+    transition-duration: 1s;
+    color:white;
+}
+.mission{
+ position:relative;
+    
+    background-color: red;
+    border-radius: 20px;
+    align-self: center;
+    height:60vh;
+    text-align: center;
+    font-family: arial;
+}
+.mission:hover{
+    background-color: black;
+    transform: scale(1.1);
+    transition-duration: 1s;
+    color:white;
+}
+.VALUES{
+position:relative;
+    
+    background-color: green;
+    border-radius: 20px;
+    align-self: center;
+    height:50vh;
+    text-align: center;
+    font-family: arial;
+    font-size:25px;
+}
+.VALUES:hover{
+    background-color: black;
+    transform: scale(1.1);
+    transition-duration: 1s;
+    color:white;
+}
+.VALUES  ul li{
+   padding-right:30px ;
+}
+footer{
+    height: 30vh;
+    padding:40px 0;
+    background:rgba(0, 128, 0, 0.705);
+    margin-top: 30px;
+}
+.footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  
+}
+.link2 h4{
+    color: white;
+    font-size: 24px;
+}
+.link2 ul li{
+    margin-bottom: 10px;
+
+}
+.link2 ul li a{
+    color: white;
+    font-weight: 600;
+    position: relative;
+    font-family: arial;
+    text-decoration: none;
+}
+.link2 ul li a::before{
+    content: ' ';
+    position: absolute;
+    height: 2px;
+    width: 60px;
+    background: white;
+    top: 20px;
+    transform-origin: left;
+    transform: scale(0);
+    transition: transform .4s;
+    text-decoration: none;
+}
+.link2 ul li a:hover::before{
+    transform: scale(1);
+}
+.link3 h4{
+    color: white;
+    font-size: 21px;
+    font-weight: 600;
+}
+.link3 ul li{
+    color:white;
+}
+.link3 ul li img{
+    height:05vh;
+    position: relative;
+    top:10px;
+}
+.copy{
+    color:white;
+    font-family: arial;
+    position: relative;
+    bottom:
